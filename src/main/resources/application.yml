@@ -8,4 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: file:///D:/git-local-repo
+#          uri: file:///D:/git-local-repo
+          uri: https://github.com/sshwn/spring-cloud-config
+#          username: [your username]  private 레포지토리 일경우 username과 password를 입력해준다
+#          password: [your password]
